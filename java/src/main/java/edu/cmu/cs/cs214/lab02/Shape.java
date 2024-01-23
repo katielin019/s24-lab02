@@ -1,10 +1,11 @@
-package edu.cmu.cs.cs214.lab02.shapes;
+package edu.cmu.cs.cs214.lab02;
 
 public interface Shape {
+
     /**
      * Calculates and returns the area of the shape.
      * 
-     * @return The area, as a double.
+     * @return The area of the shape as a double.
      */
     double getArea();
 }
