@@ -4,7 +4,7 @@ public interface Shape {
     /**
      * Calculates and returns the area of the shape.
      * 
-     * @return
+     * @return The area, as a double.
      */
     double getArea();
 }
