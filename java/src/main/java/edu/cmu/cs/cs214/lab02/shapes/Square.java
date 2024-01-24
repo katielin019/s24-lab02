@@ -9,12 +9,12 @@ public class Square implements Shape {
         this.sideLen = sideLen;
     }
 
-    public double getSideLen() { return this.sideLen; }
+    public double getSideLen() { return sideLen; }
 
     public void setSideLen(double sideLen) { this.sideLen = sideLen; }
     
     @Override
     public double getArea() {
-        return this.sideLen * this.sideLen;
+        return sideLen * sideLen;
     }
 }

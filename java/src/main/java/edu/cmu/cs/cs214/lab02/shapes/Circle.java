@@ -9,12 +9,12 @@ public class Circle implements Shape {
         this.radius = radius;
     }
 
-    public double getRadius() { return this.radius; }
+    public double getRadius() { return radius; }
 
     public void setRadius(double radius) { this.radius = radius; }
 
     @Override
     public double getArea() {
-        return Math.PI * this.radius * this.radius;
+        return Math.PI * radius * radius;
     }
 }
