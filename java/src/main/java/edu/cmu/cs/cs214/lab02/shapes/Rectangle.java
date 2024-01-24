@@ -11,14 +11,14 @@ public class Rectangle implements Shape {
         this.width = width;
     }
 
-    public double getHeight() { return this.height; }
-    public double getWidth() { return this.width; }
+    public double getHeight() { return height; }
+    public double getWidth() { return width; }
 
     public void setHeight(double height) { this.height = height; }
     public void setWidth(double width) { this.width = width; }
 
     @Override
     public double getArea() {
-        return this.height * this.width;
+        return height * width;
     }
 }
